@@ -1,10 +1,161 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: inline-flex;
+    padding: 103px 80px 48px 80px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+
+}
+
+h1 + h1 {
+  color: #1b1b1b;
+  font-size: 36px;
+  font-weight: 700;
+    padding-top: 8px;
+}
+
+figure {
+  margin: 40px 0;
+  display: flex;
+  padding: 4px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+figure img {
+  margin-top: 4px;
+  height: 660px;
+  align-self: stretch;
 }
 
 
-#container{
-    
+img{
+    border-radius: 28px;
+}
+figcaption {
+  color: #333;
+  text-align: center;
+ 
+  font-style: italic;
+  font-weight: 400;
+ 
+}
+#container {
+  width: 1120px;
+  margin: auto;
+}
+.headline {
+  color: #e1624f;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.content-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.content-list img {
+  height: 350px;
+  margin-bottom: 20px;
+}
+.title-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 40px 0;
+}
+
+.title-list p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-list h2 {
+  color: #1b1b1b;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-travel h3 {
+  color: #1b1b1b;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.card-travel p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-travel ul {
+  color: #333;
+
+
+  font-weight: 700;
+}
+
+ul{
+    margin: 40px 0;
+}
+
+
+.card-travel ul li {
+  color: #0c51a7;
+  font-weight: 700;
+ margin-left: 26px;
+}
+.content-list .card-travel:nth-child(4) li:nth-child(2){
+    color:  #E5245E;
+  
+
+}
+
+.content-list .card-travel:nth-child(4) li:nth-child(3){
+    color: #E95E10; 
+   
+  
+
+}
+
+.divisor{
+    width: 1120px;
+   height: 1px;
+   background: #D9D9D9;
+   margin: 40px 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
